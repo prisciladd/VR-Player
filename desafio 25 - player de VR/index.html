@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de VR | #boracodar 25</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Inter">
+</head>
+<body>
+    <div id="app">
+        <aside class="side-menu">
+            <ion-icon name="play-circle-outline"></ion-icon>
+            <ion-icon name="accessibility-outline"></ion-icon>
+            <ion-icon name="albums-outline"></ion-icon>
+            <ion-icon name="search-outline"></ion-icon>
+        </aside>
+        <header class="nav-bar">
+            <div class="actions">
+                <i class="ai-panel-left"></i>
+                <ion-icon name="chevron-back"></ion-icon>
+                <ion-icon name="chevron-forward"></ion-icon>
+            </div>
+            <div class="address-bar">
+                <div class="text">Aa</div>
+                <div class="rocket">
+                    <ion-icon name="lock-closed"></ion-icon>
+                    rocketseat.com
+                </div>
+                <ion-icon name="refresh"></ion-icon>
+            </div>
+            <div class="actions">
+                <ion-icon name="share-outline"></ion-icon>
+                <ion-icon name="add-outline"></ion-icon>
+                <ion-icon name="copy-outline"></ion-icon>
+            </div>
+        </header>
+        <main class="screen">
+            <div id="video"></div>
+            <div id="ambient-light"></div>
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/KT1PDX31qo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+        </main>
+        <footer class="interaction">
+            <div class="ellipse"></div>
+            <div class="rectangle"></div>
+        </footer>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+    <script src="script.js"></script>
+</body>
+</html>
